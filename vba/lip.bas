@@ -161,6 +161,7 @@ On Error GoTo ErrorHandler
     sLog = ""
     
     Application.MousePointer = 0
+    Call Application.Shell(InstallPath + PackageName)
 
 Exit Sub
 ErrorHandler:
